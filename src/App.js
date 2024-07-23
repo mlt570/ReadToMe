@@ -4,7 +4,7 @@ import './App.css';
 
 function App() {
   const [url, setUrl] = useState("");
-  const [sent, setSent] = useState(false);
+  const [sent, setSent] = useState(false); // State to track if the form has been submitted
   const [name, setName] = useState("");
 
   const sendUrl = async (e) => {
